@@ -1,0 +1,43 @@
+# Binaries & Builds
+bin/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.aab
+*.apk
+
+# Go
+services/gateway/vendor/
+services/finops-worker/vendor/
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/.pub/
+mobile/.pub-cache/
+
+# Environment & Secrets
+.env
+*.env
+*.keystore
+*.jks
+*.key
+*.pem
+service-account*.json
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Agent Skills & Config
+.agents/
+skills-lock.json
+
